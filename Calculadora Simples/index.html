@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora Simples</title>
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora</h1>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+    <main>
+      <div class="calculadora">
+        <div class="resolution">
+          <h1>Resposta</h1>
+        </div>
+        <div class="colunm-one">
+          <button class="btnd" onclick="btn('C')">C</button>
+          <button class="btnn" onclick="btn('(')">(</button>
+          <button class="btnn" onclick="btn(')')">)</button>
+          <button class="btnd" onclick="btn(':')">:</button>
+        </div>
+        <div class="colunm-two">
+          <button class="btnn" onclick="btn('7')">7</button>
+          <button class="btnn" onclick="btn('8')">8</button>
+          <button class="btnn" onclick="btn('9')">9</button>
+          <button class="btnd" onclick="btn('X')">X</button>
+        </div>
+        <div class="colunm-three">
+          <button class="btnn" onclick="btn('4')">4</button>
+          <button class="btnn" onclick="btn('5')">5</button>
+          <button class="btnn" onclick="btn('6')">6</button>
+          <button class="btnd" onclick="btn('-')">-</button>
+        </div>
+        <div class="colunm-four">
+          <button class="btnn" onclick="btn('1')">1</button>
+          <button class="btnn" onclick="btn('2')">2</button>
+          <button class="btnn" onclick="btn('3')">3</button>
+          <button class="btnd" onclick="btn('+')">+</button>
+        </div>
+        <div class="colunm-five">
+          <button class="btn0" onclick="btn('0')">0</button>
+          <button class="btnn" onclick="btn('.')">.</button>
+          <button class="btnd" onclick="btn('=')">=</button>
+        </div>
+      </div>
+    </main>
+    <section id="sobre">
+      <div class="sobre">
+        <h2>Sobre <span>o Projeto</span></h2>
+        <div>
+          <p>
+            Esta calculadora foi desenvolvida como parte do meu portfólio de
+            projetos com HTML, CSS e JavaScript. Ela permite realizar operações
+            matemáticas básicas como adição, subtração, multiplicação e divisão.
+          </p>
+          <br />
+          <p>
+            O objetivo principal deste projeto é demonstrar habilidades em
+            estruturação de layout (HTML), estilização visual (CSS) e lógica de
+            programação com JavaScript puro, sem bibliotecas externas.
+          </p>
+          <br />
+          <p>
+            O design foi pensado para ser simples, responsivo e funcional em
+            diferentes dispositivos.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer id="contato">
+      <p>Desenvolvido por Eduardo Sasaki Mafezzoli © 2025</p>
+      <p>
+        <a href="https://github.com/seuusuario" target="_blank">GitHub</a> |
+        <a href="mailto:eduardosasakimafezzoli123@gmail.com">Email</a>
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
