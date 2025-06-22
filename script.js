@@ -14,8 +14,8 @@ function btn(valor) {
   if (value === "=") {
     try {
       const expressao = display.innerText
-        .replace(/X/g, "*")
-        .replace(/:/g, "/");
+        .replace(/ × /g, " * ")
+        .replace(/ ÷ /g, " / ");
 
       const resultado = eval(expressao);
       display.innerText = resultado;
